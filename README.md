@@ -82,7 +82,7 @@ Connect your ESP32-S3 to your computer via USB and follow these two critical ste
 ## 🎮 Usage
 
 - **Prescript Button:** Generates a randomized "Instruction" with a scramble animation and sound.
-- **Random Button:** Generates an 8-character randomized string (glitch effect).
+- **Random Button:** Generates an 8-character randomized string.
 - **Clear Button:** Triggers '_CLEAR._'
 
 ## 📁 Project Structure
@@ -90,4 +90,5 @@ Connect your ESP32-S3 to your computer via USB and follow these two critical ste
 - `data/`: Contains `scramble.mp3` and `beep.mp3` for the SPIFFS image.
 - `platformio.ini`: Hardware configuration and library dependencies.
 - `index.h`: Contains the bitmap data for the initial splash screen.
+
 
