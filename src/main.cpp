@@ -496,12 +496,14 @@ void loop() {
 void audio_info(const char *info) {
   Serial.print("audio_info: ");
   Serial.println(info);
+  // Annoying but eh
 }
 
 void audio_eof_mp3(const char *info) {
-  // Unused now as we use audio.isRunning()
+  // Unused
 }
 
 void audio_eof_stream(const char *info) {
   // Unused
+
 }
