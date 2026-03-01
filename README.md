@@ -83,10 +83,11 @@ Connect your ESP32-S3 to your computer via USB and follow these two critical ste
 
 - **Prescript Button:** Generates a randomized "Instruction" with a scramble animation and sound.
 - **Random Button:** Generates an 8-character randomized string (glitch effect).
-- **Clear Button:** Triggers a "CLEAR" animation to reset the screen.
+- **Clear Button:** Triggers '_CLEAR._'
 
 ## 📁 Project Structure
 - `src/main.cpp`: Main application logic, RNG, and display/audio drivers.
 - `data/`: Contains `scramble.mp3` and `beep.mp3` for the SPIFFS image.
 - `platformio.ini`: Hardware configuration and library dependencies.
 - `index.h`: Contains the bitmap data for the initial splash screen.
+
