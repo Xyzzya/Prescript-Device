@@ -5,7 +5,7 @@ The prescript device/pager from the hit game Limbus Company.
 ## 🛠 Components Used
 
 - **Microcontroller:** ESP32-S3 DevKitC-1 N16R8 (I recommend this specific model since it has better cores and has larger flash and RAM)
-- **Display:** 1.8" TFT LCD (ST7735 Driver, 128x160 resolution)
+- **Display:** 1.77" TFT LCD (ST7735 Driver, 128x160 resolution)
 - **Audio:** I2S DAC/Amplifier (e.g., MAX98357A) + 8Ω Speaker
 - **Buttons:** 3x Momentary Push Buttons
 - **Storage:** Internal SPIFFS for MP3 assets (`beep.mp3`, `scramble.mp3`)
@@ -90,5 +90,6 @@ Connect your ESP32-S3 to your computer via USB and follow these two critical ste
 - `data/`: Contains `scramble.mp3` and `beep.mp3` for the SPIFFS image.
 - `platformio.ini`: Hardware configuration and library dependencies.
 - `index.h`: Contains the bitmap data for the initial splash screen.
+
 
 
